@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0e0fd3d-eb5b-4121-bcc3-b60b96287659" name="Default" comment="Fix&#10;- An error that allow users to mess with OracleJDBC's mom&#10;&#10;Clean&#10;- Small refactor of the archi&#10;- Format and clean">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/controller/VaNiquerTaMereController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/controller/exceptions/MamanDOracleException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/presentation/ressource/NiquageDeMereRessource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/services/INiquageDeMere.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/services/NiquageDeMere.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/spring/infrastructure/BeanConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/spring/infrastructure/DemoApplication.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/DemoApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/controler/VaNiquerTaMereControler.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/atlantic2/transaction/DemoApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/atlantic2/transaction/DemoApplicationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/controller/VaNiquerTaMereController.java" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/controller/VaNiquerTaMereController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/controller/exceptions/MamanDOracleException.java" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/controller/exceptions/MamanDOracleException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/services/INiquageDeMere.java" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/services/INiquageDeMere.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/services/NiquageDeMere.java" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/services/NiquageDeMere.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/spring/infrastructure/BeanConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/atlantic2/transaction/spring/infrastructure/BeanConfiguration.java" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -635,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474464212770</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix&#10;- An error that allow users to mess with OracleJDBC's mom&#10;&#10;Clean&#10;- Small refactor of the archi&#10;- Format and clean">
+      <created>1474475070444</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474475070444</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -644,7 +646,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
