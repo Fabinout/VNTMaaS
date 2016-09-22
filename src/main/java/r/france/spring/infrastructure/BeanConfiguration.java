@@ -9,7 +9,7 @@ import r.france.services.NiquageDeMere;
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan(basePackages = "atlantic2.transaction.presentation.ressource")
+@ComponentScan(basePackages = "r.france.presentation.ressource")
 class BeanConfiguration {
 
     @Bean
