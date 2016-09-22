@@ -1,4 +1,4 @@
-package atlantic2.transaction.spring.infrastructure;
+package r.france.spring.infrastructure;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

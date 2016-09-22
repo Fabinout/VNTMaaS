@@ -1,4 +1,4 @@
-package atlantic2.transaction.services;
+package r.france.services;
 
 interface INiquageDeMere {
 

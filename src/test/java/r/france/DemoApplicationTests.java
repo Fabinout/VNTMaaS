@@ -1,4 +1,4 @@
-package atlantic2.transaction;
+package r.france;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

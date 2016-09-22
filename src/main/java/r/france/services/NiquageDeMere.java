@@ -1,10 +1,11 @@
-package atlantic2.transaction.services;
+package r.france.services;
 
-import atlantic2.transaction.controller.exceptions.MamanDOracleException;
 import org.springframework.stereotype.Service;
+import r.france.controller.exceptions.MamanDOracleException;
 
 import javax.validation.constraints.NotNull;
-import java.util.regex.Pattern;
+
+import static java.util.regex.Pattern.matches;
 
 @Service
 public class NiquageDeMere implements INiquageDeMere {
@@ -15,7 +16,7 @@ public class NiquageDeMere implements INiquageDeMere {
     @Override
     public String niqueLuiSaMere(@NotNull String name) {
 
-        if (Pattern.matches(FABINOU_REGEX, name)) {
+        if (matches(FABINOU_REGEX, name)) {
             throw new MamanDOracleException(MamanDOracleException.WESH_ALORS);
         }
 
