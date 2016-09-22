@@ -79,4 +79,5 @@ local.properties
 .recommenders/
 
 
-.idea/
+.idea/*
+.idea/workspace.xml
