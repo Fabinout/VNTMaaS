@@ -1,7 +1,7 @@
 package r.france.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import r.france.controller.exceptions.MamanDOracleException;
+import r.france.controller.exceptions.FamilleDOracleException;
 import r.france.services.NiquageDeMere;
 
 public class VaNiquerTaMereController {
@@ -17,8 +17,8 @@ public class VaNiquerTaMereController {
         String entityBody;
         try {
             entityBody = niquageDeMere.niqueLuiSaMere(name);
-        } catch (MamanDOracleException mamanDOracleException) {
-            entityBody = mamanDOracleException.getMessage();
+        } catch (FamilleDOracleException familleDOracleRuntimeException) {
+            entityBody = familleDOracleRuntimeException.getMessage();
         }
         return entityBody;
     }
